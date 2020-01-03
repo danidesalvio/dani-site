@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+  Blog.create (
+    title: 'Top Five Reasons Why I Freaking Love Japan',
+    body: 'Texty text',
+    image: 'http://spreadstoke.com/wp-content/uploads/2014/09/IMG_2788-1024x1024.jpg'
+  )
