@@ -46,31 +46,7 @@ class Home extends Component {
     </div>
 
     <Skills/>
-
-    <div class="home-2">
-        <div class="hover">
-        <Dimmer.Dimmable
-          as={Image}
-          dimmed={active}
-          dimmer={{ active, content }}
-          onMouseEnter={this.handleShow}
-          onMouseLeave={this.handleHide}
-          size='large'
-          src={ogden}
-        />
-        </div>
-        <div class="hover">
-        <Dimmer.Dimmable
-          as={Image}
-          dimmed={active}
-          dimmer={{ active, content }}
-          onMouseEnter={this.handleShow}
-          onMouseLeave={this.handleHide}
-          size='large'
-          src={portrait}
-        />
-        </div>
-    </div>
+    
     </>
     )
   }
