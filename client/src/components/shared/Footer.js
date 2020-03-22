@@ -14,7 +14,7 @@ const Footer = () => (
         </div>
 
         <div class="dd-logo">
-          <img src={logo} alt="" />
+          <a href="#"><img src={logo} alt="" /></a>
         </div>
 
         <div class="social">

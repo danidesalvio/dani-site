@@ -46,10 +46,12 @@ const Nav = () => (
             <a href='/work'>Work</a>
             <a href='/blog'>Blog</a>
         </div> */}
+        
       <div className="menu" onclick={MenuIn}>
-        <div className="line1"></div>
-        <div className="line2"></div>
-        <div className="line3"></div>
+        <div className='nav-text'>MENU</div>
+          <div className="line1"></div>
+          <div className="line2"></div>
+          <div className="line3"></div>
       </div>
     </div>
 )
