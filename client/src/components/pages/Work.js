@@ -20,11 +20,11 @@ const Work = () => (
 
       <div class="work-section">
         <h2>Recent Work</h2>
-        <h4>The past 2.5 years I worked as a web designer and front end developer for a Real Estate tech company, Brivity/Blueroof360. </h4>
+        <h4>The past 2.5 years I worked as a web designer and front end developer for Real Estate tech company. </h4>
         <h4>
-          I wore a lot of hats at this company, but the two main things I focused on were to design and build customized client websites and also improve internal products.
-          I created and built three templates within 3 months, that thousands of clients have chosen to use as their websites. I trained new designers hired on, as well
-          as taught the Brivity design team many new coding skills and good practices. 
+          I wore a lot of hats at this company, but the two main things I focused on were to design and build customized client websites and improve internal products.
+          I created and built three templates within 2 months, that thousands of clients have chosen to use as their base websites. I trained new designers hired on, as well
+          as taught the parent company's design team many new coding skills and good practices. 
         </h4>
         
       </div>

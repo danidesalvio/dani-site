@@ -13,9 +13,9 @@ button {
 .btn-light {
   background: #ddd;
 }
-.btn-light:hover {
+/* .btn-light:hover {
   background: ;
-}
+} */
 
 .img-overlay {
   height: 100%;
@@ -118,9 +118,9 @@ button {
   background-position: center 20%;
 }
 .image-header.about .img-overlay{
-  background-image: url('../images/dani_ski.jpg');
+  background-image: url('../images/dani-ski-snowbird.jpg');
   opacity: 0.6;
-  background-position: center 50%;
+  background-position: center 85%;
 }
 
 .image-header.blog .img-overlay {
@@ -142,6 +142,7 @@ button {
 }
 
 .video-wrapper {
+  position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -149,6 +150,7 @@ button {
   padding: 80px 0;
   color: #fff;
   text-align: center;
+  z-index: 5;
 }
 .video-wrapper .left {
   flex-basis: 90%;
@@ -225,9 +227,12 @@ button {
 /*Footer*/
 .footer {
   text-align: center;
-  padding: 80px 0 120px 0;
+  padding: 120px 0;
   color: #fff;
-  background-image: url('../images/mt_footer.jpg')
+  background-image: url('../images/mt_footer.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 22%;
 }
 .footer .footer-wrapper {
   display: flex;
@@ -382,4 +387,21 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.get-funky {
+  position: absolute;
+  left:-400px;
+  top: 60px;
+  width: 800px;
+  height: 400px;
+  background: #49656B;
+}
+.get-funky-2 {
+  position: absolute;
+  right:0px;
+  bottom: 50px;
+  width: 800px;
+  height: 200px;
+  background: #49656B;
 }

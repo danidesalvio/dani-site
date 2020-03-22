@@ -7,6 +7,7 @@ import stonp from '../../images/stonp-poster.png';
 const About = () => (
   <>
     <div class="image-header about">
+      <div className='get-funky-2'></div>
         <h1>About Dani</h1>
         <div class="img-overlay"></div>
     </div>
@@ -17,7 +18,8 @@ const About = () => (
     </div>
 
     <Skills/>
-    <div class="video-wrapper">     
+    <div class="video-wrapper"> 
+      <div className='get-funky'></div>    
       <div class="left">
         <Embed
           id='145071927'
@@ -27,11 +29,12 @@ const About = () => (
       </div>
       <div class="right">
         <h2>Proudest Achievement</h2>
+        <h4>Visual Storytelling is one of her favorite ways to express herself besides writing.</h4>
         <h4>Her biggest achievement in life so far was filming for Kazu Kokubo's STONP crew of professional Japanese snowboarders. The film premiered September 2015 in Tokyo and all throughout Japan. Other experiences include working with snow related companies such as SnoCru, Discrete Headwear, and Park City Television.</h4>
       </div>
     </div>
-
     </Container>
+
   </>
 )
 
