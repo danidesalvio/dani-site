@@ -1,4 +1,5 @@
 import React from 'react';
+import Skills from '../shared/Skills';
 import { Container, Embed } from 'semantic-ui-react';
 import stonp from '../../images/stonp-poster.png';
 
@@ -15,6 +16,7 @@ const About = () => (
         for herself and others.</h4>
     </div>
 
+    <Skills/>
     <div class="video-wrapper">     
       <div class="left">
         <Embed
@@ -28,6 +30,7 @@ const About = () => (
         <h4>Her biggest achievement in life so far was filming for Kazu Kokubo's STONP crew of professional Japanese snowboarders. The film premiered September 2015 in Tokyo and all throughout Japan. Other experiences include working with snow related companies such as SnoCru, Discrete Headwear, and Park City Television.</h4>
       </div>
     </div>
+
     </Container>
   </>
 )

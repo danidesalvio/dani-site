@@ -15,7 +15,7 @@
 }
 
  .nav {
-  background: rgba(0,0,0,0.3) !important;
+  background: rgba(0,0,0,0);
   position: absolute;
   width: 100%;
   padding: 0 40px;
@@ -204,6 +204,7 @@
   font-size: 11px;
   color: #fff;
   margin-top: 20px;
+  text-align: center;
 }
 
 /*Footer*/
@@ -260,4 +261,104 @@
   .skills-wrapper .skill-info {
     margin: 40px 0;
   }
+}
+
+/*New Start*/
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+  width: 50px;
+  cursor: pointer;
+}
+.menu .line1 {
+  height: 4px;
+  width: 12px;
+  background: #eee;
+  transition: ease all 300ms;
+  transform-origin: right;
+  margin-bottom: 6px;
+}
+.menu .line2 {
+  height: 4px;
+  width: 28px;
+  background: #eee;
+  transition: ease all 300ms;
+  transform-origin: right;
+  margin-bottom: 6px;
+}
+.menu .line3 {
+  height: 4px;
+  width: 40px;
+  background: #eee;
+  transition: ease all 300ms;
+  transform-origin: right;
+}
+.menu:hover .line1 {
+  width: 40px;
+}
+.menu:hover .line3 {
+  width: 12px;
+}
+
+.menu-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg,rgb(187, 187, 187),rgba(50,50,50,1));
+  z-index: 99;
+  transition: all 300ms ease;
+}
+.menu-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.project-grid {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #fff;
+}
+.project-grid .project {
+  margin: 20px;
+  position: relative;
+}
+
+.project-grid .project-img {
+  width: 450px;
+  height: 350px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.project-grid .project .project-info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: ease all .5s;
+  padding: 20px;
+  z-index: 3;
+  background-color: rgba(0,0,0,0.1);
+  opacity: 0;
+}
+.project-grid .project:hover .project-info {
+  opacity: 1;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.project .hover-state .project-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Skills from '../shared/Skills';
+import Work from '../pages/Work';
 import { Button, Dimmer, Header, Image } from 'semantic-ui-react';
 import Vimeo from '@u-wave/react-vimeo';
 import ogden from '../../images/ogden_cropped.png';
@@ -27,6 +28,7 @@ class Home extends Component {
     <div class="video-header">
       <div class="video-content">
           <h1>Dani D Visuals</h1>
+          <h3>creating visual experiences for all</h3>
       </div>
       <div class="video-overlay"></div>
       <div class="video-background">
@@ -44,9 +46,7 @@ class Home extends Component {
             />
       </div>
     </div>
-
-    <Skills/>
-    
+    <Work/>
     </>
     )
   }

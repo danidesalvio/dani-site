@@ -11,10 +11,10 @@ import homeValue from '../../images/homevalue-mockup.png';
 
 const Work = () => (
   <>
-    <div class="image-header work">
+    {/* <div class="image-header work">
         <h1>Design & Develop</h1>
         <div class="img-overlay"></div>
-    </div>
+    </div> */}
 
     <Container>
     <div class="work-section">
@@ -28,7 +28,7 @@ const Work = () => (
       
     </div>
 
-    <Card.Group itemsPerRow={3}>
+    {/* <Card.Group itemsPerRow={3}>
       <Card
         image={aves}
         header='Template Avenues'
@@ -67,8 +67,73 @@ const Work = () => (
         header='Home Value Design'
         meta='Internal Project'
       />
-    </Card.Group>
-      <p class="disclaimer">* The websites shown above are editable by clients and may not reflect my original design or site build.</p>
+    </Card.Group> */}
+
+      <div className='project-grid'>
+
+        <div className='project'>
+          <div className='project-img' style={{backgroundImage: `url(${rcusaMockup})`}}></div>
+          
+          <div className='hover-state'>
+            <div className='project-info'>
+              <h2>Project 1</h2>
+            </div>
+          </div>
+        </div>
+
+        <div className='project'>
+          <div className='project-img' style={{backgroundImage: `url(${homeValue})`}}></div>
+          
+          <div className='hover-state'>
+            <div className='project-info'>
+              <h2>Project 1</h2>
+            </div>
+          </div>
+        </div>
+
+        <div className='project'>
+          <div className='project-img' style={{backgroundImage: `url(${aves})`}}></div>
+          
+          <div className='hover-state'>
+            <div className='project-info'>
+              <h2>Project 1</h2>
+            </div>
+          </div>
+        </div>
+
+        <div className='project'>
+          <div className='project-img' style={{backgroundImage: `url(${ogden})`}}></div>
+          
+          <div className='hover-state'>
+            <div className='project-info'>
+              <h2>Project 1</h2>
+            </div>
+          </div>
+        </div>
+
+        <div className='project'>
+          <div className='project-img' style={{backgroundImage: `url(${kass})`}}></div>
+          
+          <div className='hover-state'>
+            <div className='project-info'>
+              <h2>Project 1</h2>
+            </div>
+          </div>
+        </div>
+
+        <div className='project'>
+          <div className='project-img' style={{backgroundImage: `url(${asheville})`}}></div>
+          
+          <div className='hover-state'>
+            <div className='project-info'>
+              <h2>Project 1</h2>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="disclaimer">* Websites shown above are editable by clients and may not reflect original design or site build.</p>
     
     </Container>
   </>
