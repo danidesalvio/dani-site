@@ -29,8 +29,8 @@ const About = () => (
       </div>
       <div class="right">
         <h2>Proudest Achievement</h2>
-        <h4>Visual Storytelling is one of her favorite ways to express herself besides writing.</h4>
-        <h4>Her biggest achievement in life so far was filming for Kazu Kokubo's STONP crew of professional Japanese snowboarders. The film premiered September 2015 in Tokyo and all throughout Japan. Other experiences include working with snow related companies such as SnoCru, Discrete Headwear, and Park City Television.</h4>
+        <h5>Visual Storytelling is one of her favorite ways to express herself besides writing.</h5>
+        <h5>Her biggest achievement in life so far was filming for Kazu Kokubo's STONP crew of professional Japanese snowboarders. The film premiered September 2015 in Tokyo and all throughout Japan. Other experiences include working with snow related companies such as SnoCru, Discrete Headwear, and Park City Television.</h5>
       </div>
     </div>
     </Container>

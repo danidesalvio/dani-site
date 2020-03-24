@@ -19,8 +19,9 @@ const Footer = () => (
 
         <div class="social">
           <h3>Stay Connected</h3>
-          <p class="social-flex"><a href="https://www.linkedin.com/in/dani-desalvio-378b3569/" target="_blank">Find me on <img src={linkedin}/></a></p>
-          {/* <p><a href="">View CV</a></p> */}
+          <a className='social-flex' href="https://www.linkedin.com/in/dani-desalvio-378b3569/" target="_blank">Find me on <img src={linkedin}/></a>
+          <a className='' href="https://www.instagram.com/danidphoto/" target="_blank">View my photos</a>
+          {/* <a href="">View CV</a> */}
         </div>
       </div>
     </div>

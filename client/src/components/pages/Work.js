@@ -6,6 +6,7 @@ import kass from '../../images/myway.png';
 import asheville from '../../images/Asheville&Beyond.png';
 import rcusaMockup from '../../images/rcusa_mockup.png';
 import homeValue from '../../images/homevalue-mockup.png';
+import Asheville from './projects/Asheville';
 
 
 
@@ -24,7 +25,7 @@ const Work = () => (
         <h4>
           I wore a lot of hats at this company, but the two main things I focused on were to design and build customized client websites and improve internal products.
           I created and built three templates within 2 months, that thousands of clients have chosen to use as their base websites. I trained new designers hired on, as well
-          as taught the parent company's design team many new coding skills and good practices. 
+          as taught the parent company's design team new coding skills and good practices - which led to increased productivity. 
         </h4>
         
       </div>

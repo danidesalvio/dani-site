@@ -8,6 +8,7 @@ import Work from './components/pages/Work';
 import Footer from './components/shared/Footer';
 import Blog from './components/pages/blog/Blog';
 
+
 const App = () => (
   <>
     <Nav/>
